@@ -7,8 +7,84 @@
 	"url": "http://annotation.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
+		{
+			"name": "Google Books",
+			"x-api-slug": "google-books",
+			"description": "Google Books is our effort to make book content more discoverable on the Web. Using the Google Books API, your application can perform full-text searches and retrieve book information, viewability and eBook availability. You can also manage your personal bookshelves.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-16 at 4.28.26 PM.png",
+			"humanURL": "https://developers.google.com/books/",
+			"baseURL": "://www.googleapis.com//books/v1",
+			"tags": "Annotation",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/google-books/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Genomics",
+			"x-api-slug": "google-genomics",
+			"description": "Google Genomics helps the life science community organize the world&rsquo;s genomic information and make it accessible and useful. Big genomic data is here today, with petabytes rapidly growing toward exabytes. Through our extensions to Google Cloud Platform, you can apply the same technologies that power Google Search and Maps to securely store, process, explore, and share large, complex datasets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/power-your-science.png",
+			"humanURL": "https://cloud.google.com/genomics/",
+			"baseURL": "://genomics.googleapis.com//",
+			"tags": "Annotation",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/google-genomics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Natural Language",
+			"x-api-slug": "google-cloud-natural-language",
+			"description": "Google Cloud Natural Language API reveals the structure and meaning of text by offering powerful machine learning models in an easy to use REST API. You can use it to extract information about people, places, events and much more, mentioned in text documents, news articles or blog posts. You can use it to understand sentiment about your product on social media or parse intent from customer conversations happening in a call center or a messaging app. You can analyze text uploaded in your request or integrate with your document storage on Google Cloud Storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/powerful-text-analysis-2x.png",
+			"humanURL": "https://cloud.google.com/natural-language/",
+			"baseURL": "://language.googleapis.com//",
+			"tags": "Annotation",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/google-cloud-natural-language/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Annotation",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/kaltura/openapi.md"
+				}
+			]
+		}
 	],
 	"tags": "Annotation",
 	"include": [
+		{
+			"name": "Google Books",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/google-books/apis.yaml"
+		},
+		{
+			"name": "Google Genomics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/google-genomics/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Natural Language",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/google-cloud-natural-language/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/annotation/master/_listings/kaltura/apis.yaml"
+		}
 	]
 }
